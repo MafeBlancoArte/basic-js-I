@@ -101,9 +101,9 @@ if (car < gas) {
 // Ejercicio 10: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
 
 //Escribe tu código aquí
-const a = 5;
-const b = 10;
-console.log (a > 0 && b > 0);
+const xa = 5;
+const xb = 10;
+console.log (xa > 0 && xb > 0);
 // Expected output : true
 
 //Ejercicio 11: completa el ejercicio
@@ -150,26 +150,26 @@ console.log (num3 == num3AsString);
 //OPERADORES DE LÓGICA
 //Ejercicio 15: Descomenta todo el bloque desde la variable 'a' hasta el 'console.log(res6)' y completa el ejercicio. (Saldrá un error y no podrás visualizar el resultado hasta que termines este ejercicio)
 
-let a = 6;
-let b = 3;
+let a = 6
+let b = 3
 
 let res =  a < 10 && b > 1 
 console.log (res);
 
-let res2 = a < 10  b < 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
-console.log(res2)
+let res2 = a < 10 || b < 1
+console.log(res2);
 
-let res3 = a == 5 __ b == 5 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
-console.log(res3)
+let res3 = a == 5 && b == 5 
+console.log(res3);
 
-let res4 = a == 6 __ b == 0 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
-console.log(res4)
+let res4 = a == 6 && b != 0
+console.log(res4);
 
-let res5 = a == 0 __ b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
-console.log(res5)
+let res5 = !a == 0 && b == 3
+console.log(res5);
 
-let res6 = a == 6 __ b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
-console.log(res6) */
+let res6 = a == 6 && b == 3
+console.log(res6);
 
 
 
